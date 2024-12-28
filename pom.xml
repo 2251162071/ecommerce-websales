@@ -122,6 +122,13 @@
 			</exclusions>
 		</dependency>
 
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.6.0</version> <!-- Sử dụng phiên bản mới nhất -->
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -132,7 +139,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 
 </project>
